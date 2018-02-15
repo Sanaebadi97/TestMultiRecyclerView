@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+
+
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/img_horizontal_featured"
+            android:layout_width="@dimen/circle_image_featured"
+            android:layout_height="@dimen/circle_image_featured"
+            android:layout_margin="3dp"
+            app:civ_border_width="1dp"
+            tools:src="@drawable/pic_9"
+            />
+
+        <TextView
+            android:id="@+id/txt_horizontal_featured"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:lines="2"
+            android:layout_below="@+id/img_horizontal_featured"
+            android:textColor="@color/featured_title"
+            android:textSize="@dimen/circle_text_featured"
+            tools:text="@string/featured_title"
+            />
+
+
+    </RelativeLayout>
+
+
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group
+        android:id="@+id/first_list"
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/wallpapers"
+            android:icon="@drawable/ic_image_white_24dp"
+            android:orderInCategory="0"
+            android:title="@string/wallpapers"/>
+        <item
+            android:id="@+id/live_wallpapers"
+            android:icon="@drawable/ic_camera_burst_white_24dp"
+            android:orderInCategory="0"
+            android:title="@string/live_wallpapers"/>
+        <item
+            android:id="@+id/ringtones"
+            android:icon="@drawable/ic_volume_high_white_24dp"
+            android:orderInCategory="0"
+            android:title="@string/ringtones"/>
+        <item
+            android:id="@+id/notifications"
+            android:icon="@drawable/ic_bell_white_24dp"
+            android:orderInCategory="0"
+            android:title="@string/notifications"/>
+        <item
+            android:id="@+id/icons"
+            android:icon="@drawable/ic_view_dashboard_white_24dp"
+            android:orderInCategory="0"
+            android:title="@string/icons"/>
+        <item
+            android:id="@+id/widgets"
+            android:icon="@drawable/ic_widgets_white_24dp"
+            android:orderInCategory="0"
+            android:title="@string/widgets"/>
+        <item
+            android:id="@+id/games"
+            android:icon="@drawable/ic_xbox_controller_white_24dp"
+            android:orderInCategory="0"
+            android:title="@string/games"/>
+
+    </group>
+
+    <group
+        android:id="@+id/second_list"
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/saved"
+            android:icon="@drawable/ic_heart_white_24dp"
+            android:orderInCategory="1"
+            android:title="@string/saved"/>
+
+    </group>
+
+    <group android:id="@+id/third_list" android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/settings"
+            android:icon="@drawable/ic_settings_white_24dp"
+            android:orderInCategory="1"
+            android:title="@string/settings"
+            />
+        <item
+            android:id="@+id/help"
+            android:icon="@drawable/ic_help_circle_outline_white_24dp"
+            android:orderInCategory="1"
+            android:title="@string/help"/>
+        <item
+            android:id="@+id/information"
+            android:icon="@drawable/ic_information_outline_white_24dp"
+            android:orderInCategory="1"
+            android:title="@string/information"/>
+
+    </group>
+
+</menu>

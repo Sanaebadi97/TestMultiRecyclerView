@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#0f1010</color>
+    <color name="colorPrimaryDark">#060606</color>
+    <color name="colorAccent">#500c5c</color>
+    <color name="nav_icon_item">#fff</color>
+    <color name="nav_background">#262525</color>
+    <color name="fragment_background">#020202</color>
+    <color name="featured_title">#ffffff</color>
+    <color name="text_fragment">#aba5a5</color>
+</resources>
