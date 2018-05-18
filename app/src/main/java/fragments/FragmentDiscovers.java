@@ -68,6 +68,7 @@ public class FragmentDiscovers extends Fragment {
         discover_first_list.setHasFixedSize(true);
         discover_first_list.setLayoutManager(new LinearLayoutManager(getActivity(), LinearLayoutManager.HORIZONTAL,
           false));
+        discover_first_list.setNestedScrollingEnabled(false);
         discover_first_list.setAdapter(discoverFirstAdapter);
       }
     });
@@ -81,6 +82,7 @@ public class FragmentDiscovers extends Fragment {
         discover_second_list.setHasFixedSize(true);
         discover_second_list.setLayoutManager(new LinearLayoutManager(getActivity(), LinearLayoutManager.HORIZONTAL,
           false));
+         discover_second_list.setNestedScrollingEnabled(false);
         discover_second_list.setAdapter(discoverSecondAdapter);
 
       }
