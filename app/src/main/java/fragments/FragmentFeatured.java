@@ -62,7 +62,7 @@ public class FragmentFeatured extends Fragment {
         featured_horizontal_list.setHasFixedSize(true);
         featured_horizontal_list.setLayoutManager(new LinearLayoutManager(getActivity(),
           LinearLayoutManager.HORIZONTAL, false));
-
+        featured_horizontal_list.setNestedScrollingEnabled(false);
         featured_horizontal_list.setAdapter(featuredHorizontalAdapter);
 
       }
@@ -77,7 +77,7 @@ public class FragmentFeatured extends Fragment {
         featured_vertical_list.setHasFixedSize(true);
         featured_vertical_list.setLayoutManager(new GridLayoutManager(getActivity(),
           3, LinearLayoutManager.VERTICAL, false));
-
+        featuredVerticalAdapter.setNestedScrollingEnabled(false);
         featured_vertical_list.setAdapter(featuredVerticalAdapter);
 
       }
