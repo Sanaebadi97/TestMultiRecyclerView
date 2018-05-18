@@ -12,17 +12,18 @@
         android:layout_height="match_parent"
         android:background="@color/fragment_background">
 
-        <ScrollView
+           <android.support.v4.widget.NestedScrollView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:fillViewport="true"
-            android:fitsSystemWindows="true"
-            android:scrollbarSize="1dp"
+            android:scrollbars="none"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior"
             android:scrollbarThumbVertical="@color/fragment_background">
 
             <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
                 >
 
                 <TextView
