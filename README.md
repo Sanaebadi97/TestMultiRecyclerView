@@ -12,7 +12,7 @@
 Turn ON The Internet in yor Device for Test , Because I did not manage Internet connection :(
 
 
-This is imitation from ZEDGE™ (https://play.google.com/store/apps/details?id=net.zedge.android) and I tried make A small part of it for practice RecyclerView and Webservice.and this gif is the output. all the restapi data are fake and i saved them on my server. that was good experience for me .
+This is imitation from [ZEDGE™](https://play.google.com/store/apps/details?id=net.zedge.android) and I tried make A small part of it for practice RecyclerView and Webservice.and this gif is the output. all the restapi data are fake and i saved them on my server. that was good experience for me .
 
 
 
