@@ -17,7 +17,7 @@ This is imitation from [ZEDGE™](https://play.google.com/store/apps/details?id=
 
 
 
-A screensaver with two types of RecyclerView on Android (Horizontal , Vertical) and How To use It With MaterialDesign (Toolbar , TabLayout ,...) !
+A screensaver with two types of ```RecyclerView``` on Android (Horizontal , Vertical) and How To use It With [MaterialDesign ](https://material.io/)(```Toolbar``` , ```TabLayout``` ,...) !
 
 happy code ;)
 
